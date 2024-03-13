@@ -7,7 +7,25 @@ generator client {
 	provider = "prisma-client-js"
 }
 
-model ShortURL {
-	id Int @id @default(autoincrement())
-	url String
+model User {
+	id String @id @default(cuid())
+	username String
+
+	exercises Exercise[]
+
+	createdAt DateTime @default(now())
+	updatedAt DateTime @default(now())
+}
+
+model Exercise {
+	id String @id @default(cuid())
+	description String
+	duration Float
+	date DateTime
+
+	user User @relation(fields: [userId], references: [id])
+	userId String
+
+	createdAt DateTime @default(now())
+	updatedAt DateTime @default(now())
 }

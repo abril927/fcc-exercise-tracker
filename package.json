@@ -1,8 +1,8 @@
 {
-  "name": "url-shortener",
-  "version": "2.0.0",
+  "name": "exercise-tracker",
+  "version": "1.0.0",
   "main": "dist/main.js",
-  "repository": "https://github.com/abril927/fcc-url-shortener",
+  "repository": "https://github.com/abril927/fcc-exercise-tracker",
   "author": "Abril <abril927@proton.me>",
   "license": "UNLICENSED",
   "packageManager": "yarn@4.1.1",

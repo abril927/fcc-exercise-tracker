@@ -394,6 +394,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exercise-tracker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "exercise-tracker@workspace:."
+  dependencies:
+    "@prisma/client": "npm:^5.10.2"
+    "@types/body-parser": "npm:^1"
+    "@types/cors": "npm:^2"
+    "@types/express": "npm:^4.17.21"
+    "@types/node": "npm:^20.11.25"
+    body-parser: "npm:^1.20.2"
+    cors: "npm:^2.8.5"
+    dotenv: "npm:^16.4.5"
+    dotenv-cli: "npm:^7.4.1"
+    express: "npm:^4.18.3"
+    prisma: "npm:^5.10.2"
+    typescript: "npm:^5.4.2"
+  languageName: unknown
+  linkType: soft
+
 "express@npm:^4.18.3":
   version: 4.18.3
   resolution: "express@npm:4.18.3"
@@ -886,25 +905,6 @@ __metadata:
   checksum: 10c0/193400255bd48968e5c5383730344fbb4fa114cdedfab26e329e50dd2d81b134244bb8a72c6ac1b10ab0281a58b363d06405632c9d49ca9dfd5e90cbd7d0f32c
   languageName: node
   linkType: hard
-
-"url-shortener@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "url-shortener@workspace:."
-  dependencies:
-    "@prisma/client": "npm:^5.10.2"
-    "@types/body-parser": "npm:^1"
-    "@types/cors": "npm:^2"
-    "@types/express": "npm:^4.17.21"
-    "@types/node": "npm:^20.11.25"
-    body-parser: "npm:^1.20.2"
-    cors: "npm:^2.8.5"
-    dotenv: "npm:^16.4.5"
-    dotenv-cli: "npm:^7.4.1"
-    express: "npm:^4.18.3"
-    prisma: "npm:^5.10.2"
-    typescript: "npm:^5.4.2"
-  languageName: unknown
-  linkType: soft
 
 "utils-merge@npm:1.0.1":
   version: 1.0.1
